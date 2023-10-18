@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T16:39:40.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XphMIVvx_NzQIbljTRmV" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T02:58:01.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Vry-ecgrPuyOhBskSGx4" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2705" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -462,7 +462,7 @@
         <mxCell id="MueAxgdCtU6wzUnrUAfZ-235" value="&lt;h1&gt;ecn&lt;/h1&gt;&lt;div&gt;wear leavlling 관리를 위해서&amp;nbsp;&lt;/div&gt;&lt;div&gt;블럭을 할당할떄 ecn이 작은 것부터&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-530" y="1675" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="MueAxgdCtU6wzUnrUAfZ-236" value="&lt;h1&gt;full&lt;/h1&gt;&lt;div&gt;블럭이 비어있는지 sector 이 몇개 사용중인지 확인&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MueAxgdCtU6wzUnrUAfZ-236" value="&lt;h1&gt;full&lt;/h1&gt;&lt;div&gt;블럭이 비어있는지 sector 이 몇개 사용중인지 확인&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-750" y="1800" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="MueAxgdCtU6wzUnrUAfZ-237" value="&lt;h1&gt;last log block offset&lt;/h1&gt;&lt;div&gt;logblock 이 비어있는지 확인해야하기 떄문에&amp;nbsp;&lt;/div&gt;&lt;div&gt;마지막으로 쓰기연산한 블럭의 offset 을 알고있다면&amp;nbsp;&lt;/div&gt;&lt;div&gt;다음 offset 번호 +1 해서&amp;nbsp; 다음 쓰기를 읽기 수행없이 진행할 수 있음&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -696,11 +696,14 @@
         <mxCell id="MueAxgdCtU6wzUnrUAfZ-357" value="mapping table 업데이트" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="190" y="2665" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OLTqJ2BiCB1ABrHnFHN2-0" value="&lt;h1&gt;freeblock 개수 고려&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OLTqJ2BiCB1ABrHnFHN2-0" value="&lt;h1&gt;freeblock 개수 고려&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-550" y="880" width="400" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="OLTqJ2BiCB1ABrHnFHN2-1" value="&lt;h1&gt;freeblock 개수 고려&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OLTqJ2BiCB1ABrHnFHN2-1" value="&lt;h1&gt;freeblock 개수 고려&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-430" y="2030" width="400" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-0" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;사용: logblock&amp;nbsp;&lt;/div&gt;&lt;div&gt;erase - invalid 한개수가 많은것을&lt;/div&gt;&lt;div&gt;병합할때 new data 가 없을수록 효율적- new data를 copy 해야하는 개수가 감소해서&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;목적: 병합시 효율적인 합병&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;32개&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-670" y="1270" width="220" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
