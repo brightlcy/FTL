@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T02:59:09.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="7hR4nkoDg2P3cexklMcR" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T03:22:40.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hLu9QK1da5rkfLe1cP3d" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1974" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -708,8 +708,28 @@
         <mxCell id="CA0xqKiuaQIvlLIzJ8qz-2" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-450" y="1310" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-5" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-460" y="1280" width="220" height="170" as="geometry" />
+        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-7" value="&lt;h1&gt;SW -블럭단위&amp;nbsp;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;datablock 의 pbn/&lt;/div&gt;&lt;div&gt;logblock의 pbn/ last log block number- 현재&amp;nbsp; 어떤식으로 touch 했는지 사용한다&lt;/div&gt;&lt;div&gt;그러면 0번째 offset 을 사용해서&amp;nbsp;&lt;/div&gt;&lt;div&gt;touch 한 offset 까지 긁어준다&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="1530" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.329;exitY=-0.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MueAxgdCtU6wzUnrUAfZ-226">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1530" as="sourcePoint" />
+            <mxPoint x="50" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-9" value="&lt;h1&gt;RW sector단위로 관리&lt;/h1&gt;&lt;div&gt;이렇게 관리&lt;/div&gt;&lt;div&gt;그러나 일반화 한다면&lt;/div&gt;&lt;div&gt;lsn - psn&amp;nbsp; 으로 계산한다&lt;/div&gt;&lt;div&gt;full 형태로 들어가기때문에&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-50" y="1070" width="390" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.447;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MueAxgdCtU6wzUnrUAfZ-233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210.07000000000016" y="1353.9599999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-12" value="&lt;h1&gt;last log block offset&lt;/h1&gt;&lt;div&gt;사용: logblock&lt;/div&gt;&lt;div&gt;full 형태로 차곡차곡 들어가기때문에&amp;nbsp;&lt;/div&gt;&lt;div&gt;마지막 어디를 touch 했는지만 알면&lt;/div&gt;&lt;div&gt;read 를 무시할 수 있음&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-305" y="1180" width="235" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
