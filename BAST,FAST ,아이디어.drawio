@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T03:22:40.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hLu9QK1da5rkfLe1cP3d" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T03:26:10.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="3KWwVh7E38rnN2YUh0YW" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1974" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -730,6 +730,9 @@
         </mxCell>
         <mxCell id="CA0xqKiuaQIvlLIzJ8qz-12" value="&lt;h1&gt;last log block offset&lt;/h1&gt;&lt;div&gt;사용: logblock&lt;/div&gt;&lt;div&gt;full 형태로 차곡차곡 들어가기때문에&amp;nbsp;&lt;/div&gt;&lt;div&gt;마지막 어디를 touch 했는지만 알면&lt;/div&gt;&lt;div&gt;read 를 무시할 수 있음&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-305" y="1180" width="235" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CA0xqKiuaQIvlLIzJ8qz-13" value="&lt;h1&gt;&amp;nbsp;booting 관련&lt;/h1&gt;&lt;div&gt;?&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-730" y="2010" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
